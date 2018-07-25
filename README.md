@@ -2,6 +2,7 @@
 
 1. Download latest [ chromedriver ]( https://sites.google.com/a/chromium.org/chromedriver/downloads ) and put under directory */usr/local/bin* on Mac OS
 2.Maven
+3.Java 7 or java 8
 
 ###### Additional Info:
 Serenity + Cucumber + BDD concepts

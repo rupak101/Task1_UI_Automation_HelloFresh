@@ -15,8 +15,6 @@ import net.thucydides.core.annotations.DefaultUrl;
 public class SignInPage extends PageObject{
 	public static String emailValue = "test_mail" + String.valueOf(new Date().getTime()) + "@test" + ".com";
 	public static String passwordValue ="password123";
-//	public static String emailValue = "testtesttesttest@gmail.com";
-//	public static String passwordValue ="123456";
 	@FindBy(css = "a.login")
 	private WebElement signIn;
 	

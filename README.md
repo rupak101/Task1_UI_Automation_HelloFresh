@@ -31,8 +31,10 @@ docker run -d -P -p 5901:5900 --link selenium-hub:hub -v /dev/shm:/dev/shm selen
 mvn verify -Drun.parallel=true -Dwebdriver.remote.driver=CHROME -Dwebdriver.remote.url=http://hub_container_external_ip:4444/wd/hub -Dwebdriver.base.url=http://automationpractice.com/index.php -Dwebdriver.remote.os=LINUX
 
 ####report####
-3.Consolidated report can be found under  
+3.Consolidated report can be found under 
+
   3.1**Cucumber Reports - **target/site/cucumber-reports/feature-overview.html**
+  
   3.2** Serenity report - **/target/cucumber-htmlreport/index.html**
 
 
